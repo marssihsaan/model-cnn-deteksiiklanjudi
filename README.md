@@ -17,7 +17,8 @@ This model is built with a system that can predict images of online gambling ads
 - Model (Create model using CNN Architectur Standard using TensorFlow - KERAS)
 - Access (Train the model (epoch 10,15,20), evaluation, prediction)
 
-## Screenshots
+## Dataset
 
-![App Screenshot] (https://github.com/marssihsaan/model-cnn-deteksiiklanjudi/blob/main/Screenshot%202024-07-15%20105510.png)
+![Screenshot](https://raw.githubusercontent.com/marssihsaan/model-cnn-deteksiiklanjudi/main/Screenshot%202024-07-15%20105510.png)
 
+## visualization
