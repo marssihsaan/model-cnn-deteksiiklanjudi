@@ -81,3 +81,16 @@ model.add(Flatten())
 model.add(Dense(256, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
  ```
+## Access (Evaluation, Result Prediction)
+
+- Using Accuracy for easy interpretetaion
+
+| Epoch | High Accuracy     | Avarage Accuracy |
+| :-------- | :------- | :---------------------|
+| 10 | 89%  | 73% | 
+|  15 | 99%  | 87% |
+|  20 | 100% | 88% |
+
+- Result Prediction:
+
+![Screenshot](https://raw.githubusercontent.com/marssihsaan/model-cnn-deteksiiklanjudi/main/Screenshot%202024-06-05%20143428.png)
