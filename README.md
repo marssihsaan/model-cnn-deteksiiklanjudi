@@ -124,3 +124,7 @@ model.add(Dense(1, activation='sigmoid'))
 - Result Prediction:
 
 ![Screenshot](https://raw.githubusercontent.com/marssihsaan/model-cnn-deteksiiklanjudi/main/Screenshot%202024-06-05%20143428.png)
+
+## Implementation Model
+
+https://github.com/marssihsaan/implementation-cnn-model
