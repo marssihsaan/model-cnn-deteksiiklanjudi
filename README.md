@@ -68,6 +68,8 @@ Judi Online = 0
   test_size = int(len(data)*.1)
  ```  
 
+![Image](https://github.com/marssihsaan/model-cnn-deteksiiklanjudi/blob/main/Screenshot%202024-09-19%20161429.png)
+
 ## Modelling
 
 ```bash
@@ -83,13 +85,41 @@ model.add(Dense(1, activation='sigmoid'))
  ```
 ## Access (Evaluation, Result Prediction)
 
-- Using Accuracy for easy interpretetaion
+- Plot Lost & Accuracy Training Epoch 10
+
+![Image](https://github.com/marssihsaan/model-cnn-deteksiiklanjudi/blob/main/Screenshot%202024-06-18%20135850.png)
+
+- Confusion Matrix Predict on Training
+  
+![Image](https://github.com/marssihsaan/model-cnn-deteksiiklanjudi/blob/main/Screenshot%202024-06-18%20140216.png)
+  
+- Plot Lost & Accuracy Training Epoch 15
+
+![Image](https://github.com/marssihsaan/model-cnn-deteksiiklanjudi/blob/main/Screenshot%202024-06-18%20122703.png)
+
+- Confusion Matrix Predict on Training
+
+![Image](https://github.com/marssihsaan/model-cnn-deteksiiklanjudi/blob/main/Screenshot%202024-06-18%20122949.png)
+
+- Plot Lost & Accuracy Training Epoch 20
+
+![Image](https://github.com/marssihsaan/model-cnn-deteksiiklanjudi/blob/main/Screenshot%202024-06-18%20105214.png)
+
+- Confusion Matrix Predict on Training
+
+![Image](https://github.com/marssihsaan/model-cnn-deteksiiklanjudi/blob/main/Screenshot%202024-06-18%20105656.png)
+
+- Conclusion Accuracy on Training for easy interpretetaion
 
 | Epoch | High Accuracy     | Avarage Accuracy |
 | :-------- | :------- | :---------------------|
 | 10 | 89%  | 73% | 
 |  15 | 99%  | 87% |
 |  20 | 100% | 88% |
+
+**Overall accuracy has improved:** This indicates that the model is becoming better at classifying data.  
+**There is a gap between training and validation accuracy:** This aligns with the loss analysis results. The model achieves higher accuracy on the training data, but its performance is not as good on the validation data.  
+**The model has learned well:** The continuously decreasing loss value alongside the validation indicates that the model is capable of capturing patterns in the data.
 
 - Result Prediction:
 
